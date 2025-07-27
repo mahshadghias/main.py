@@ -21,9 +21,9 @@ def start(update: Update, context: CallbackContext):
     update.message.reply_text("درحال ارسال پیام ناشناس به «مهشاد» هستی. میتونی هر حرف یا انتقادی که تو دلت هست رو بگی چون پیامت بصورت کاملا ناشناس ارسال میشه!")
 
 def main():
-    TOKEN = os.environ.get("توکن ربات موجود نیست")
+    TOKEN = os.environ.get("TOKEN")
     if not TOKEN:
-        print("TOKEN")
+        print("توکن ربات موجود نیست")
         return
 
     keep_alive()
