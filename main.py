@@ -23,7 +23,7 @@ def start(update: Update, context: CallbackContext):
 def main():
     TOKEN = os.environ.get("TOKEN")
     if not TOKEN:
-        print("توکن ربات موجود نیست")
+        print("8272872650:AAExZjBPsx9bWdWZy7yePkMFiZK29fLBoNk")
         return
 
     keep_alive()
